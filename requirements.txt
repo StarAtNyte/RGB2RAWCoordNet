@@ -1,0 +1,5 @@
+torch
+torchvision
+numpy>=1.21.0
+opencv-python-headless>=4.5.0 # Or opencv-python if you need the GUI components
+tqdm>=4.60.0
