@@ -32,9 +32,9 @@ pip install -r requirements.txt
 
 Make sure you install the correct PyTorch version compatible with your system (CPU/GPU and CUDA version if applicable). See [pytorch.org](https://pytorch.org/) for details.
 
-## Model (`model.pt`)
+## Model (`model.pth`)
 
-The `model.pt` file contains the trained weights of the `RGB2RAWCoordNet`.
+The `model.pth` file contains the trained weights of the `RGB2RAWCoordNet`.
 
 * **Source:** This file should be the output of the training process (e.g., `model_best_psnr.pth` from the notebook, renamed to `model.pt`).
 * **Placement:** Place this file in the root of the `teamname/rgb2raw/` directory.
