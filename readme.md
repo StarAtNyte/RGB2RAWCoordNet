@@ -74,6 +74,8 @@ python inference.py --folder ./test_data/rgb --output ./results --gpu_id -1
 
 The output will be saved as `.npy` files (uint16 format, HWC layout) in the specified output directory.
 
+![image](https://github.com/user-attachments/assets/755c3d47-70e3-481f-8887-6df64a47705f)
+
 ## Notes
 
 * The model architecture (`model.py`) and hyperparameters used during inference instantiation **must match** the ones used during the training of `model.pt`. The script attempts to load the config from the checkpoint file (`model.pt`) to ensure this consistency. If the config is missing from the checkpoint, review the placeholder values in `inference.py`.
