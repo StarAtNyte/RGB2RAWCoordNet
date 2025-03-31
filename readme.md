@@ -1,4 +1,4 @@
-# RGB-to-RAW Reconstruction Model (Team: teamname)
+# RGB-to-RAW Reconstruction Model LightWeight (0.18M Params)
 
 This repository contains the code and model for reconstructing RAW sensor data from processed RGB images, based on the coordinate-based network approach.
 
