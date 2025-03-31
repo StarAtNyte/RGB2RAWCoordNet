@@ -74,7 +74,9 @@ python inference.py --folder ./test_data/rgb --output ./results --gpu_id -1
 
 The output will be saved as `.npy` files (uint16 format, HWC layout) in the specified output directory.
 
+![image](https://github.com/user-attachments/assets/2f20e585-0fcb-4b75-9a7e-fe5857114f5c)
 ![image](https://github.com/user-attachments/assets/755c3d47-70e3-481f-8887-6df64a47705f)
+![image](https://github.com/user-attachments/assets/b7d0ae42-833c-4acb-8e85-2ba0029a6265)
 
 ## Notes
 
